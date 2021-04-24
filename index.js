@@ -5,20 +5,20 @@ const client = new RPC.Client({
 });
 
 const activity = {
-    details: "KKK ON TOP",
+    details: "description,
     assets: {
-        large_image: "image_1",
-        large_text: "DM ME FOR KV's",
+        large_image: "image from discord",
+        large_text: "text",
 
     },
     buttons: [
         {
-            "label": "KV's [XBOX]",
-            "url": "https://discord.gg/DDTpgG49eB"
+            "label": "Text Here",
+            "url": "custom URL HERE"
         },
         {
-            "label": "Genisys [PS3]",
-            "url": "https://www.genisys.kiwi/login"
+            "label": "Text Here",
+            "url": "custom URL HERE"
         },
     ],
     timestamps: { start: Date.now () },
@@ -30,4 +30,4 @@ client.on("ready", () => {
     console.log(colors.bgBrightRed('hello')); // outputs green text
 });
 
-client.login({ clientId: "823060159563300884" })
+client.login({ clientId: "CLIENT ID HERE" })
