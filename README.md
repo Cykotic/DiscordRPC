@@ -10,5 +10,3 @@ https://nodejs.org/en/download/
 Packages Use:
 
 https://www.npmjs.com/package/discord-rpc
-
-https://www.npmjs.com/package/colors
