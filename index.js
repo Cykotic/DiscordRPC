@@ -37,8 +37,8 @@ client.login({ clientId: "CLIENT ID HERE" })// create client from https://discor
 
 /*
 
-credit The Lazy Guy | Cykotic ✘
-it's a simple discord RPC
+credit: The Lazy Guy | Cykotic ✘
+it's a simple discord RPC / Public coding
 
 
 */
