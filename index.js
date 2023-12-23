@@ -19,7 +19,6 @@ async function setActivity() {
         smallImageText: 'eh', // The text that appears when hovering over the small image (if used)
         instance: false, // Whether the activity is an instance (usually set to false)
         startTimestamp: Date.now(), // The start timestamp of the activity
-        //endTimestamp: Date.now(), // The end timestamp of the activity
         buttons: [{
                 label: 'Button 1',
                 url: 'https://www.example.com'
@@ -51,10 +50,5 @@ rpc.login({
 }).catch((error) => {
     console.error("Error logging in:", error.message);
 });
-
-
-// should look like this when your finish
-// https://makima.thicc-thighs.com/8hafs52r.png
-
 
 // example for "largeImageKey", "smallImageKey" should look something like this https://prnt.sc/13j34qe
